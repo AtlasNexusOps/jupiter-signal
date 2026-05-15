@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jupiter Signal — Atlas Nexus</title>
+  <meta name="description" content="AI-assisted multi-API correlation engine for Jupiter's Developer Platform by Atlas Nexus." />
+  <style>
+    :root { color-scheme: dark; --bg:#050816; --card:#101827; --ink:#eef4ff; --muted:#9fb1ca; --blue:#4f8cff; --green:#37d399; --line:#23314d; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background:radial-gradient(circle at 20% 0%, rgba(79,140,255,.24), transparent 32%), radial-gradient(circle at 90% 20%, rgba(55,211,153,.18), transparent 26%), var(--bg); color:var(--ink); }
+    main { width:min(1080px, calc(100% - 32px)); margin:0 auto; padding:56px 0; }
+    .eyebrow { color:var(--green); font-weight:700; letter-spacing:.12em; text-transform:uppercase; font-size:.78rem; }
+    h1 { font-size:clamp(2.5rem, 8vw, 5.4rem); line-height:.95; letter-spacing:-.06em; margin:18px 0; }
+    .grad { background:linear-gradient(135deg,var(--blue),var(--green)); -webkit-background-clip:text; color:transparent; }
+    p { color:var(--muted); font-size:1.08rem; line-height:1.7; max-width:760px; }
+    .grid { display:grid; grid-template-columns:1.1fr .9fr; gap:22px; margin-top:34px; }
+    .card { border:1px solid var(--line); background:rgba(16,24,39,.72); border-radius:24px; padding:24px; box-shadow:0 24px 80px rgba(0,0,0,.28); }
+    pre { overflow:auto; margin:0; color:#dce9ff; font-size:.9rem; line-height:1.5; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .pill { display:inline-flex; border:1px solid rgba(79,140,255,.35); color:#cfe0ff; padding:8px 12px; border-radius:999px; margin:6px 6px 0 0; background:rgba(79,140,255,.08); }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:26px; }
+    a.btn { color:var(--ink); text-decoration:none; padding:12px 16px; border-radius:14px; border:1px solid var(--line); background:#111b2e; font-weight:700; }
+    a.primary { background:linear-gradient(135deg,var(--blue),#2563eb); border:0; }
+    footer { margin-top:48px; color:#7890b4; font-size:.92rem; }
+    @media (max-width:800px){ .grid{grid-template-columns:1fr;} main{padding:34px 0;} }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Atlas Nexus · Jupiter Developer Platform</div>
+  <h1>Jupiter <span class="grad">Signal</span></h1>
+  <p>AI-assisted correlation engine combining Jupiter Price, Tokens and Prediction Markets APIs into structured JSON intelligence for agents and analyst workflows.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://github.com/AtlasNexusOps/jupiter-signal">View GitHub</a>
+    <a class="btn" href="https://atlasnexusops.github.io/">Atlas Nexus</a>
+  </div>
+  <section class="grid">
+    <div class="card">
+      <h2>Workflow</h2>
+      <p>Independent API surfaces are composed into a single review object: price momentum, token quality, prediction-market context and agent-readable reasoning.</p>
+      <span class="pill">Price API</span><span class="pill">Tokens API</span><span class="pill">Prediction Markets</span><span class="pill">JSON-first output</span>
+    </div>
+    <div class="card">
+<pre><code>{
+  "token": "JUP",
+  "change_24h_pct": 52.9,
+  "organic_score": 92,
+  "prediction_context": "bullish",
+  "signal": "momentum_divergence",
+  "confidence": 0.85,
+  "note": "manual review required"
+}</code></pre>
+    </div>
+  </section>
+  <footer>Technical demonstration only. Not financial advice and no transaction execution.</footer>
+</main>
+</body>
+</html>
