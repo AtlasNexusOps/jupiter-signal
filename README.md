@@ -1,5 +1,8 @@
 # Jupiter Signal
 
+[![CI](https://github.com/AtlasNexusOps/jupiter-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/AtlasNexusOps/jupiter-signal/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+
+
 AI-assisted correlation engine for Jupiter's Developer Platform.
 
 `jupiter-signal` combines Jupiter Price, Tokens and Prediction Markets APIs to produce structured token intelligence for AI agents and analyst workflows. It is designed as an Atlas Nexus proof-of-work project: API composition, clean CLI output, JSON-first automation and readable reasoning.
